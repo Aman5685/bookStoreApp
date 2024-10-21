@@ -49,7 +49,7 @@ function Contact() {
         <input type="text" 
         placeholder="Type your message"
         className="w-80 px-3 py-1 border rounded-md outline-none"
-        //{...register("name", { required: true })}
+        {...register("Message", { required: true })}
         />
         <br />
         {errors.message &&( <span className="text-sm text-red-500">This field is required</span>)}

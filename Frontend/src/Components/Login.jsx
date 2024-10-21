@@ -44,11 +44,15 @@ function Login() {
        </div>
         {/*Button */}
         <div className="flex justify-around mt-4">
-          <button className="bg-pink-500 text-white rounded-md px-3 py-1 hover:bg-pink-700 duration-200">Login</button>
-          <p>Not registered? 
+          
+        <button className="bg-pink-500 text-white rounded-md px-3 py-1 hover:bg-pink-700 duration-200">Login</button>
+        <div> <p>
+          <span>Not registered? 
             <Link to="/signup" className="underline text-blue-500 cursor-pointer">
             Signup</Link>{" "}
+          </span>
           </p>
+          </div>
         </div>
         </form>
       </div>
