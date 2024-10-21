@@ -21,7 +21,7 @@ function Signup() {
       {/* if there is a button in form, it will close the modal */}
       <Link to="/" className="btn btn-sm btn-circle absolute right-2 top-2 ">✕</Link>
     
-    <h3 className="font-bold text-lg ">Signup</h3>
+    <h3 className="font-bold text-lg">Signup</h3>
     <div className="mt-4 space-y-2">
         <span>Name</span>
         <br />
