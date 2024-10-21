@@ -47,7 +47,7 @@ useEffect(()=>{
       <li className="md:bg-base-200 dark:bg-slate-600 dark:text-white display flex"><a href="/">Home</a></li>
       <li className="md:bg-base-200 dark:bg-slate-600 dark:text-white display flex"><a href="/course">Course</a></li>
       <li className="md:bg-base-200 dark:bg-slate-600 dark:text-white display flex"><a href="/contact">Contact</a></li>
-      <li className="md:bg-base-200 dark:bg-slate-600 dark:text-white display flex"><a>About</a></li>
+      <li className="md:bg-base-200 dark:bg-slate-600 dark:text-white display flex"><a href="/about" >About</a></li>
         </>
     )
   return (
